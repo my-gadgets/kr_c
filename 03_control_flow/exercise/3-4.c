@@ -8,7 +8,7 @@ void reverse(char s[], int l, int r)
         t = s[l];
         s[l] = s[r];
         s[r] = t;
-        ++l, --r;
+        ++l, --t;
     }
 }
 
